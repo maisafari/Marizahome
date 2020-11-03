@@ -1,0 +1,2 @@
+#!/bin/bas
+find . -type f | git check-ignore --stdin
