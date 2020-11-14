@@ -1,0 +1,19 @@
+/*universal selector alows us to start clean */
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+   
+}
+
+html{
+    font-size:62.5%;/* 62.5= 10/16 px; 1 rem= 10px; 16px is the default brouser siz*/
+  
+}
+
+body{
+    
+    box-sizing: border-box;
+}
